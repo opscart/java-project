@@ -13,7 +13,7 @@
     <pathelement location="${build.dir}" />
   </path>
 
-  <!-- Deletes the existing build, docs and dist directory-->
+  <!-- Deletes the existing build, docs and dist directory s-->
   <target name="clean">
     <delete dir="${build.dir}" />
     <delete dir="${dist.dir}" />
